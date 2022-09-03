@@ -33,7 +33,7 @@ export class Feedback extends Component {
   };
 
   render() {
-    // console.log(this.state);
+    console.log(this.state);
     const buttons = Object.keys(this.state)
     // console.log(buttons);
     const { good, neutral, bad } = this.state;
